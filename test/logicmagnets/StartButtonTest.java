@@ -5,25 +5,19 @@
  */
 package logicmagnets;
 
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
  * @author Cami
  */
-public class LogicMagnetsTest {
-    
-    public LogicMagnetsTest() {
-    }
+public class StartButtonTest {
 
-    /**
-     * Test of main method, of class LogicMagnets.
-     */
     @Test
-    public void testMain() {
+    public void StartButtonText() {
+        
         assertEquals(LogicMagnets.inainte.getText(), "Start");
-                
+        
     }
-    
 }
